@@ -1,0 +1,425 @@
+.header{
+	padding-left: 50px;
+	background-color:red;
+	height: 30px;
+	width: 100%;
+}
+
+
+.fa-twitter{
+	padding-left: 30px;
+}
+
+
+.navbar{
+	background-image: url("../img/2.jpg");
+    background-size:240vh 20vh;
+    background-repeat:no-repeat;
+    content: "";
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.logotext p1, p2{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+.navbar-nav a{
+	font-size: 13px;
+	color: white;
+	font-weight: bold;
+}
+
+
+.flag{
+	padding-left: 30px;
+	margin-right: -100px;
+}
+
+
+.carousel h1{
+	font-weight: bold;
+}
+
+
+/*.............services.........*/
+@import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background: #eee;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.our-services {
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0 60px;
+    min-height: 198px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, .17)
+}
+
+.our-services .icon {
+    margin-bottom: -21px;
+    transform: translateY(-50%);
+    text-align: center
+}
+
+.our-services:hover h4,
+.our-services:hover p {
+    color: #fff
+}
+
+.speedup:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
+}
+
+.settings:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%)
+}
+
+.privacy:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%)
+}
+
+.backups:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fc6a0e 0%, #fdb642 100%)
+}
+
+.ssl:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #8d40fb 0%, #5a57fb 100%)
+}
+
+.database:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)
+}
+.container-fluid H4{
+	font-weight: bold;
+}
+
+.container-fluid P{
+	/*font-weight: bold;*/
+}
+
+/*///////////////////////////officer/////////////////////////////*/
+.officer{
+	background-color: black;
+	padding: 20px 0px;
+}
+
+.officer1{
+	background-color: black;
+}
+
+
+/*/////////////////Gallery////////////////*/
+
+.Gallery{
+	height: 1500px;
+	width: 100%;
+	padding: 70px 0px 30px;
+}
+.Gallery h2{
+	font-size: 42px !important;
+	font-weight: bold !important;
+}
+
+.Gallery p{
+	font-weight: bold !important;
+}
+
+.row2{
+	padding-top: 20px;
+}
+
+/*//////////staff///////////*/
+
+.staff{
+	background-image: url(../img/2.jpg);
+	background-size: 100% 100%;
+	height: 700px;
+	width: 100%;
+	padding: 80px 0px 60px;
+}
+
+.staff h1{
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+}
+
+.staff p{
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+}
+
+
+
+
+/*//////////////////contact us//////////////////////////*/
+
+.contact{
+	height: 800px;
+	width: 100%;
+	padding-top: 150px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(../img/1.jpg);
+	background-position: center;
+	background-size: cover;
+	/*position: absolute;*/
+}
+
+.form-box{
+	width: 400px;
+	height: 480px;
+	position: relative;
+	margin-left: 35%;
+	/*margin-top: 20%;*/
+	background-color: white;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.button-box{
+	width: 221px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+
+.toggle-btn{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+	left: 5px;
+}
+
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: linear-gradient(to right,#ff105f,#ffad06);
+	border-radius: 30px;
+	transition: 0.5s;
+}
+
+.social-icons{
+	margin: 30px auto;
+	text-align: center;
+}
+.social-icons img{
+	width: 30px;
+	margin: 0px 12px;
+	box-shadow: 0 0 20px 0 #7f7f7f3d;
+	cursor: pointer;
+}
+
+.input{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+	font-family: sans-serif;
+}
+
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-top: 0; 1px 0 0 solid #999;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+	font-family: sans-serif;
+}
+
+.submit-btn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right,#ff105f,#ffad06);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+	font-family: sans-serif;
+}
+
+.check-box{
+	margin: 30px 10px 30px 0;
+}
+
+.contact span{
+	color: #777;
+	font-size: 12px;
+	bottom: 68px;
+	position: absolute;
+	font-family: sans-serif;
+}
+
+#login{
+	left: 50px;
+}
+
+#register{
+	left:450px;
+}
+
+
+
+
+/*//////////FOOTER///////////*/
+
+.site-footer{
+	background-image: url("../img/2.jpg");
+	height: 275px;
+	width: 100%;
+}
+
+.footer1{
+	height: 30px;
+}
+
+
+/*///////////responsive///////////*/
+
+@media(min-width: 920px){
+
+}
+
+@media(min-width: 768px)and(max-width: 991px){
+
+.services{
+	height: 1500px;
+}
+
+.Gallery{
+	height: 3500px;
+}
+
+.staff{
+	height: 1700px;
+	
+}
+
+
+}
+
+@media(min-width: 548px) and(max-width: 767px){
+
+}
+
+@media(min-width: 480px) and(max-width: 574px){
+
+}
+
+@media(max-width: 548px){
+
+.header{
+	height: 80px;
+}
+
+.navbar{
+	background-size: 80vh;
+	padding-right: 100px;
+	height: 300px;
+	width: 100%;
+}
+
+.navbar-nav a:hover{
+
+}
+
+.navbar-nav a{
+	color: white;
+	font-weight: bold;
+	background-color: #555;
+}
+
+
+.services{
+	height: 1300px;
+}
+
+.vvi-person{
+	height: 1600px;
+}
+
+.Gallery{
+	height: 3000px;
+
+}
+
+.staff{
+	height: 1100px;
+	
+}
+
+.staff h1{
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+}
+
+.staff p{
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+.site-footer{
+	padding-top: 50px;
+	height: 650px;
+}
+
+
+.footer1{
+	height: 25px;
+
+}
+   
+}
